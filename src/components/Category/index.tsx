@@ -11,7 +11,7 @@ import { styles } from "./styles";
 type CategoryProps = RectButtonProps & {
   title: string;
   icon: React.FC<SvgProps>;
-  hasCheckBox: boolean;
+  hasCheckBox?: boolean;
   checked?: boolean;
 };
 
