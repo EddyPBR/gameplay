@@ -19,9 +19,10 @@ export const styles = StyleSheet.create({
     paddingVertical: 20,
   },
   title: {
-    fontFamily: theme.fonts.title500,
+    fontFamily: theme.fonts.title700,
     color: theme.colors.heading,
     fontSize: 15,
+    marginTop: 15,
   },
   check: {
     position: "absolute",
@@ -36,8 +37,8 @@ export const styles = StyleSheet.create({
   },
   checked: {
     position: "absolute",
-    top: 8,
-    right: 8,
+    top: 7,
+    right: 7,
     width: 10,
     height: 10,
     backgroundColor: theme.colors.primary,
