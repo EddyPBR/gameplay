@@ -14,7 +14,7 @@ import {
 type User = {
   id: string;
   username: string;
-  firstname: string;
+  firstName: string;
   avatar: string;
   email: string;
   token: string;
