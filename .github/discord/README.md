@@ -1,6 +1,6 @@
 <br />
 <h1 align="center">
-  <img alt="Firebase configuração" src="https://github.com/EddyPBR/letmeask/blob/main/.github/assets/discord-logo.png" width="240px" /> 
+  <img alt="Github configuração" src="https://github.com/EddyPBR/gameplay/blob/main/.github/assets/discord-logo.png" width="240px" /> 
   <br />
   <br />
   Guia Discord API
@@ -26,7 +26,9 @@ Assumindo que você tenha feito o login no discord siga o passo-a-passo logo aba
 - No campo de `scopes` selecione as seguintes opções: identity, email, connections, guilds;
 - Salve as informações;
 
-<img src="https://github.com/EddyPBR/gameplay/blob/main/.github/assets/gameplay-configuracao-dotenv.png" alt="Discord API configuração" width="720" />
+<p align="center">
+  <img src="https://github.com/EddyPBR/gameplay/blob/main/.github/assets/gameplay-redirects-config.gif" alt="Discord API configuração" width="1080" />
+</p>
 
 - No ultimo campo copie a URL gerada pelo discord;
 - E agora vamos preencher o arquivo `.env`, abra o mesmo e siga os passos seguintes;
@@ -40,6 +42,11 @@ CDN_IMAGE=
 ```
 
 - Agora vamos resgatar as informações como mostrado no gif abaixo;
+
+<p align="center">
+  <img src="https://github.com/EddyPBR/gameplay/blob/main/.github/assets/gameplay-configuracao-dotenv.gif" alt="Discord API dotenv configuração" width="1080" />
+</p>
+
 - Na opção `Response Type` sempre será `token` (como mostrado no gif);
 - Na opção CDN informe o seguinte: `https://cdn.discordapp.com`;
 
