@@ -92,9 +92,11 @@ CDN_IMAGE=
 - 9º: No seu smartphone abra o app do expo, e selecione `Scan QR Code` e faça o scan do QR Code do seu nevegador;
 - 10º: Tente fazer login no APP (já lhe adianto que dará errado), porém será retornado uma mensagem do expo no seu terminal,
 como mostra a figura logo abaixo;
+
 <p align="center">
    <img src="https://github.com/EddyPBR/gameplay/blob/main/.github/assets/expo-url-redirect.png" alt="Expo redirects URL" />
 </p>
+
 - 11º: Copie a URL da mensagem, vá na sua API do discord, vá na opção OAuth2, no campo `REDIRECTS` cole a URL que o expo forneceu;
 - 12º: No campo OAuth2 URL Generator confirme a nova URL;
 - 13º: Recarregue a aplicação e pronto, faça bom proveito do projeto!
